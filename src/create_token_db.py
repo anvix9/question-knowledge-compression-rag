@@ -116,24 +116,6 @@ def clean_text(text):
 def load_analysis_json_files(base_directory: str = './queries_bank/') -> List[Tuple[str, str]]:
     files_content = []
 
-    #if base_directory == './abstract/':
-    ## === Load and Process Markdown Files ===
-
-    #    markdown_folder = "./abstract/"
-    #    documents = []
-    #    file_map = []  # maps paper_id (stripped) to full filename
-
-    #    for filename in os.listdir(markdown_folder):
-    #        if filename.endswith(".md"):
-    #            path = os.path.join(markdown_folder, filename)
-    #            with open(path, "r", encoding="utf-8") as file:
-    #                text = markdown_to_text(file.read())
-    #                documents.append(text)
-    #                paper_id = strip_prefix(filename)
-    #                files_content.append((paper_id, text)) 
-
-    #    return files_content
-
     for root, dirs, files in os.walk(base_directory):
         if 'extracted_queries.json' in files:
             json_path = os.path.join(root, 'extracted_queries.json')
