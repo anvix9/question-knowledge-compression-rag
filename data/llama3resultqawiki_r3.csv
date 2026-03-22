@@ -1,0 +1,9 @@
+id,query,rank,predicted_id
+2wikimqa_e_1,"Who is Hermann Ii, Count Palatine Of Lotharingia's paternal grandfather?",1,2wikimqa_e_1
+2wikimqa_e_1,"Who is Hermann Ii, Count Palatine Of Lotharingia's paternal grandfather?",2,2wikimqa_e_5
+2wikimqa_e_2,Where was the director of film Requiem For Dominic born?,1,2wikimqa_e_17
+2wikimqa_e_2,Where was the director of film Requiem For Dominic born?,2,2wikimqa_e_2
+2wikimqa_e_3,What is the place of birth of Ibrahim Ibn Muhammad's mother?,1,2wikimqa_e_3
+2wikimqa_e_3,What is the place of birth of Ibrahim Ibn Muhammad's mother?,2,2wikimqa_e_13
+2wikimqa_e_4,"Which film has the director died earlier, Kadamba (1983 Film) or Mickey'S Tent Show?",1,2wikimqa_e_4
+2wikimqa_e_4,"Which film has the director died earlier, Kadamba (1983 Film) or Mickey'S Tent Show?",2,2wikimqa_e_18

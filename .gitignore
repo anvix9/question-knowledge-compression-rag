@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (large files not tracked)
+data/2wikimqa_e.jsonl
+converted_markdowns/
+paper_analysis/
+paper_analysis_imp/
+paper_compressed/
+card_papers/
+paper_metadata/
+queries_bank/
+abstract/
+
+# Cache
+~/cache/
+*.cache
+__pycache__/
+
+# Logs
+*.log
+
+# Node (demo)
+node_modules/
