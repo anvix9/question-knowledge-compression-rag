@@ -9,14 +9,6 @@ from typing import List, Tuple
 from nltk.tokenize import word_tokenize
 import codecs
 
-# Load a model from the HuggingFace hub (in this case the potion-base-8M model)
-#model = StaticModel.from_pretrained("minishlab/potion-base-8M")
-
-# Make sequences of token embeddings
-#token_embeddings = model.encode_as_sequence(["It's dangerous to go alone!", "It's a secret to everybody."])
-
-#print(token_embeddings[0][0])
-
 # Known failure messages
 FAILURE_MESSAGES = {
     "Query generation failed",
