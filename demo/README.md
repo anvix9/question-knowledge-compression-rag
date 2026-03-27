@@ -14,11 +14,7 @@ The demo has 5 interactive tabs:
 
 ## Running the Demo
 
-### Option 1: Claude Artifacts (Recommended)
-
-Copy the contents of `demo.jsx` into [Claude.ai](https://claude.ai) and ask Claude to render it as a React artifact.
-
-### Option 2: Local React Setup
+## Local React Setup
 
 ```bash
 npx create-react-app demo-app
